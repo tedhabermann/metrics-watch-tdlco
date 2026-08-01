@@ -1,7 +1,7 @@
 {
-  "repositories": ["sjyq.oozvia"],
-  "consortium": "",
-  "max": 500,
+  "repositories": [],
+  "consortium": "tdlco",
+  "max": 5000,
   "random": true,
   "resourceType": "",
   "query": ""
