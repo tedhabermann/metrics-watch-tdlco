@@ -1,9 +1,22 @@
 {
-  "repositories": [],
-  "consortium": "tdlco",
-  "schedule": "monthly",
-  "max": 5000,
-  "random": true,
-  "resourceType": "",
-  "query": ""
+  "sets": [
+    {
+      "name": "Texas Digital Library Consortium",
+      "schedule": "monthly",
+      "repositories": [],
+      "consortium": "tdlco",
+      "max": 5000,
+      "random": true,
+      "resourceType": "",
+      "query": ""
+    },
+    {
+      "name": "Metadata Game Changers",
+      "schedule": "daily",
+      "max": 100,
+      "repositories": [
+        "sjyq.oozvia"
+      ]
+    }
+  ]
 }
