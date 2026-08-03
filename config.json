@@ -1,6 +1,7 @@
 {
   "repositories": [],
   "consortium": "tdlco",
+  "schedule": "monthly",
   "max": 5000,
   "random": true,
   "resourceType": "",
