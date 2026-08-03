@@ -5,7 +5,8 @@ name: Score metadata
 
 on:
   schedule:
-    - cron: '53 * * * *'
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of every month
+    # - cron: '53 * * * *'
   workflow_dispatch:       # plus a "Run workflow" button in the Actions tab
 
 permissions:
