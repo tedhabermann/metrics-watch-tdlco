@@ -15,7 +15,8 @@
       "schedule": "daily",
       "max": 100,
       "repositories": [
-        "sjyq.oozvia"
+        "sjyq.oozvia",
+        "sjyq.omytlw"
       ]
     }
   ]
