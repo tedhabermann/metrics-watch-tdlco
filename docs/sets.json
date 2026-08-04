@@ -1,0 +1,67 @@
+{
+ "generated": "2026-08-04T16",
+ "sets": [
+  {
+   "name": "Texas Digital Library Consortium",
+   "schedule": "monthly",
+   "series": [
+    {
+     "client": "tdl.digitalrocks",
+     "label": "",
+     "history": "reports/tdl.digitalrocks/tdl.digitalrocks_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.griidc",
+     "label": "",
+     "history": "reports/tdl.griidc/tdl.griidc_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.iodp",
+     "label": "",
+     "history": "reports/tdl.iodp/tdl.iodp_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.tacc",
+     "label": "",
+     "history": "reports/tdl.tacc/tdl.tacc_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.tamu",
+     "label": "",
+     "history": "reports/tdl.tamu/tdl.tamu_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.tamu-cc",
+     "label": "",
+     "history": "reports/tdl.tamu-cc/tdl.tamu-cc_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.tdl",
+     "label": "",
+     "history": "reports/tdl.tdl/tdl.tdl_useCaseHistory.json"
+    },
+    {
+     "client": "tdl.utl",
+     "label": "",
+     "history": "reports/tdl.utl/tdl.utl_useCaseHistory.json"
+    }
+   ]
+  },
+  {
+   "name": "Metadata Game Changers",
+   "schedule": "daily",
+   "series": [
+    {
+     "client": "sjyq.oozvia",
+     "label": "",
+     "history": "reports/sjyq.oozvia/sjyq.oozvia_useCaseHistory.json"
+    },
+    {
+     "client": "sjyq.omytlw",
+     "label": "",
+     "history": "reports/sjyq.omytlw/sjyq.omytlw_useCaseHistory.json"
+    }
+   ]
+  }
+ ]
+}
