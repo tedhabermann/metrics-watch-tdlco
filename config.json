@@ -1,23 +1,29 @@
 {
   "sets": [
     {
-      "name": "Texas Digital Library Consortium",
-      "schedule": "monthly",
-      "repositories": [],
-      "consortium": "tdlco",
-      "max": 5000,
-      "random": true,
-      "resourceType": "",
-      "query": ""
-    },
-    {
       "name": "Metadata Game Changers",
       "schedule": "daily",
-      "max": 100,
+      "max": 1000,
       "repositories": [
         "sjyq.oozvia",
         "sjyq.omytlw"
       ]
+    },
+    {
+      "name": "NASA",
+      "schedule": "monthly",
+      "repositories": [],
+      "consortium": "nasaco",
+      "max": 1000,
+      "random": true
+    },
+    {
+      "name": "NOAA",
+      "schedule": "monthly",
+      "repositories": ["noaa.gmd", "noaa.library", "noaa.ncei"],
+      "consortium": "",
+      "max": 1000,
+      "random": true
     }
   ]
 }
