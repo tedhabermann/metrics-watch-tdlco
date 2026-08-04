@@ -1,52 +1,6 @@
 {
- "generated": "2026-08-04T16",
+ "generated": "2026-08-04T17",
  "sets": [
-  {
-   "name": "Texas Digital Library Consortium",
-   "schedule": "monthly",
-   "series": [
-    {
-     "client": "tdl.digitalrocks",
-     "label": "",
-     "history": "reports/tdl.digitalrocks/tdl.digitalrocks_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.griidc",
-     "label": "",
-     "history": "reports/tdl.griidc/tdl.griidc_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.iodp",
-     "label": "",
-     "history": "reports/tdl.iodp/tdl.iodp_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.tacc",
-     "label": "",
-     "history": "reports/tdl.tacc/tdl.tacc_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.tamu",
-     "label": "",
-     "history": "reports/tdl.tamu/tdl.tamu_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.tamu-cc",
-     "label": "",
-     "history": "reports/tdl.tamu-cc/tdl.tamu-cc_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.tdl",
-     "label": "",
-     "history": "reports/tdl.tdl/tdl.tdl_useCaseHistory.json"
-    },
-    {
-     "client": "tdl.utl",
-     "label": "",
-     "history": "reports/tdl.utl/tdl.utl_useCaseHistory.json"
-    }
-   ]
-  },
   {
    "name": "Metadata Game Changers",
    "schedule": "daily",
@@ -60,6 +14,88 @@
      "client": "sjyq.omytlw",
      "label": "",
      "history": "reports/sjyq.omytlw/sjyq.omytlw_useCaseHistory.json"
+    }
+   ]
+  },
+  {
+   "name": "NASA",
+   "schedule": "monthly",
+   "series": [
+    {
+     "client": "esdis.eosdis",
+     "label": "",
+     "history": "reports/esdis.eosdis/esdis.eosdis_useCaseHistory.json"
+    },
+    {
+     "client": "esdis.ornl",
+     "label": "",
+     "history": "reports/esdis.ornl/esdis.ornl_useCaseHistory.json"
+    },
+    {
+     "client": "heliophy.spdf",
+     "label": "",
+     "history": "reports/heliophy.spdf/heliophy.spdf_useCaseHistory.json"
+    },
+    {
+     "client": "nasa.ahed",
+     "label": "",
+     "history": "reports/nasa.ahed/nasa.ahed_useCaseHistory.json"
+    },
+    {
+     "client": "nasa.data",
+     "label": "",
+     "history": "reports/nasa.data/nasa.data_useCaseHistory.json"
+    },
+    {
+     "client": "nasa.genelab",
+     "label": "",
+     "history": "reports/nasa.genelab/nasa.genelab_useCaseHistory.json"
+    },
+    {
+     "client": "nasaarmd.afpda",
+     "label": "",
+     "history": "reports/nasaarmd.afpda/nasaarmd.afpda_useCaseHistory.json"
+    },
+    {
+     "client": "nasapds.nasapds",
+     "label": "",
+     "history": "reports/nasapds.nasapds/nasapds.nasapds_useCaseHistory.json"
+    },
+    {
+     "client": "nasasmd.pgda",
+     "label": "",
+     "history": "reports/nasasmd.pgda/nasasmd.pgda_useCaseHistory.json"
+    },
+    {
+     "client": "nasasmd.psi",
+     "label": "",
+     "history": "reports/nasasmd.psi/nasasmd.psi_useCaseHistory.json"
+    },
+    {
+     "client": "nasasmd.shadoz",
+     "label": "",
+     "history": "reports/nasasmd.shadoz/nasasmd.shadoz_useCaseHistory.json"
+    }
+   ]
+  },
+  {
+   "name": "NOAA",
+   "schedule": "monthly",
+   "series": [
+    {
+     "client": "noaa.gmd",
+     "label": "",
+     "history": "reports/noaa.gmd/noaa.gmd_useCaseHistory.json"
+    },
+    {
+     "client": "noaa.library",
+     "label": "",
+     "history": "reports/noaa.library/noaa.library_useCaseHistory.json"
+    },
+    {
+     "client": "noaa.ncei",
+     "label": "",
+     "history": "reports/noaa.ncei/noaa.ncei_useCaseHistory.json"
     }
    ]
   }
