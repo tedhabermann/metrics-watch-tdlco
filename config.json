@@ -1,6 +1,6 @@
 {
   "sets": [
-    {
+/*    {
       "name": "Metadata Game Changers",
       "schedule": "daily",
       "max": 1000,
@@ -21,6 +21,15 @@
       "name": "NOAA",
       "schedule": "monthly",
       "repositories": ["noaa.gmd", "noaa.library", "noaa.ncei"],
+      "consortium": "",
+      "max": 1000,
+      "random": true
+    },
+    */
+    {
+      "name": "UCAR",
+      "schedule": "monthly",
+      "repositories": ["ucar.ucar", "ucar.eol"],
       "consortium": "",
       "max": 1000,
       "random": true
