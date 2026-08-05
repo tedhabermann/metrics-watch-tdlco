@@ -1,6 +1,6 @@
 {
   "sets": [
-/*    {
+    {
       "name": "Metadata Game Changers",
       "schedule": "daily",
       "max": 1000,
@@ -24,8 +24,9 @@
       "consortium": "",
       "max": 1000,
       "random": true
-    },
-    */
+    }
+/*
+,
     {
       "name": "UCAR",
       "schedule": "monthly",
@@ -34,5 +35,7 @@
       "max": 1000,
       "random": true
     }
+*/
+
   ]
 }
