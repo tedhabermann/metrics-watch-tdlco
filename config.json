@@ -2,7 +2,7 @@
   "sets": [
     {
       "name": "Metadata Game Changers",
-      "schedule": "daily",
+      "schedule": "weekly",
       "max": 1000,
       "repositories": [
         "sjyq.oozvia",
