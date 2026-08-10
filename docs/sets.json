@@ -1,6 +1,27 @@
 {
- "generated": "2026-08-10T06",
+ "generated": "2026-08-10T17",
  "sets": [
+  {
+   "name": "ETH Repositories",
+   "schedule": "monthly",
+   "series": [
+    {
+     "client": "ethz.marvel",
+     "label": "",
+     "history": "reports/ethz.marvel/ethz.marvel_useCaseHistory.json"
+    },
+    {
+     "client": "ethz.wsl",
+     "label": "",
+     "history": "reports/ethz.wsl/ethz.wsl_useCaseHistory.json"
+    },
+    {
+     "client": "ethz.psi",
+     "label": "",
+     "history": "reports/ethz.psi/ethz.psi_useCaseHistory.json"
+    }
+   ]
+  },
   {
    "name": "Metadata Game Changers",
    "schedule": "weekly",
