@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T17",
+ "generated": "2026-08-10T18",
  "sets": [
   {
    "name": "ETH Repositories",
@@ -19,6 +19,11 @@
      "client": "ethz.psi",
      "label": "",
      "history": "reports/ethz.psi/ethz.psi_useCaseHistory.json"
+    },
+    {
+     "client": "eawag.rdm",
+     "label": "",
+     "history": "reports/eawag.rdm/eawag.rdm_useCaseHistory.json"
     }
    ]
   },
