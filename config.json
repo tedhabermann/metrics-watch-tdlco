@@ -1,6 +1,17 @@
 {
   "sets": [
     {
+      "name": "ETH Repositories",
+      "schedule": "monthly",
+      "max": 1000,
+      "repositories": [
+        "ethz.marvel",
+        "ethz.wsl",
+        "ethz.psi",
+        "earwig.rdm"
+      ]
+    },
+    {
       "name": "Metadata Game Changers",
       "schedule": "weekly",
       "max": 1000,
