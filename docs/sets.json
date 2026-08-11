@@ -1,127 +1,54 @@
 {
- "generated": "2026-08-10T18",
+ "generated": "2026-08-11T21",
  "sets": [
   {
-   "name": "ETH Repositories",
-   "schedule": "monthly",
-   "series": [
-    {
-     "client": "ethz.marvel",
-     "label": "",
-     "history": "reports/ethz.marvel/ethz.marvel_useCaseHistory.json"
-    },
-    {
-     "client": "ethz.wsl",
-     "label": "",
-     "history": "reports/ethz.wsl/ethz.wsl_useCaseHistory.json"
-    },
-    {
-     "client": "ethz.psi",
-     "label": "",
-     "history": "reports/ethz.psi/ethz.psi_useCaseHistory.json"
-    },
-    {
-     "client": "eawag.rdm",
-     "label": "",
-     "history": "reports/eawag.rdm/eawag.rdm_useCaseHistory.json"
-    }
-   ]
-  },
-  {
-   "name": "Metadata Game Changers",
+   "name": "DataONE Repositories at UCSB",
    "schedule": "weekly",
    "series": [
     {
-     "client": "sjyq.oozvia",
-     "label": "",
-     "history": "reports/sjyq.oozvia/sjyq.oozvia_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "PISCO_MN",
+     "history": "reports/cdl.ucsb/cdl.ucsb_PISCO_MN_useCaseHistory.json"
     },
     {
-     "client": "sjyq.omytlw",
-     "label": "",
-     "history": "reports/sjyq.omytlw/sjyq.omytlw_useCaseHistory.json"
-    }
-   ]
-  },
-  {
-   "name": "NASA",
-   "schedule": "monthly",
-   "series": [
-    {
-     "client": "esdis.eosdis",
-     "label": "",
-     "history": "reports/esdis.eosdis/esdis.eosdis_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "NSF_Arctic_Data_Center",
+     "history": "reports/cdl.ucsb/cdl.ucsb_NSF_Arctic_Data_Center_useCaseHistory.json"
     },
     {
-     "client": "esdis.ornl",
-     "label": "",
-     "history": "reports/esdis.ornl/esdis.ornl_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "KNB_Data_Repository",
+     "history": "reports/cdl.ucsb/cdl.ucsb_KNB_Data_Repository_useCaseHistory.json"
     },
     {
-     "client": "heliophy.spdf",
-     "label": "",
-     "history": "reports/heliophy.spdf/heliophy.spdf_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "Kavli_Institute_for_Theoretical_Physics",
+     "history": "reports/cdl.ucsb/cdl.ucsb_Kavli_Institute_for_Theoretical_Physics_useCaseHistory.json"
     },
     {
-     "client": "nasa.ahed",
-     "label": "",
-     "history": "reports/nasa.ahed/nasa.ahed_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "punctum_books",
+     "history": "reports/cdl.ucsb/cdl.ucsb_punctum_books_useCaseHistory.json"
     },
     {
-     "client": "nasa.data",
-     "label": "",
-     "history": "reports/nasa.data/nasa.data_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "Smithsonian_Tropical_Research_Institute",
+     "history": "reports/cdl.ucsb/cdl.ucsb_Smithsonian_Tropical_Research_Institute_useCaseHistory.json"
     },
     {
-     "client": "nasa.genelab",
-     "label": "",
-     "history": "reports/nasa.genelab/nasa.genelab_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "Issues_in_Science_and_Technology_Librarianship",
+     "history": "reports/cdl.ucsb/cdl.ucsb_Issues_in_Science_and_Technology_Librarianship_useCaseHistory.json"
     },
     {
-     "client": "nasaarmd.afpda",
-     "label": "",
-     "history": "reports/nasaarmd.afpda/nasaarmd.afpda_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "California_Ocean_Protection_Council_Data_Repository",
+     "history": "reports/cdl.ucsb/cdl.ucsb_California_Ocean_Protection_Council_Data_Repository_useCaseHistory.json"
     },
     {
-     "client": "nasapds.nasapds",
-     "label": "",
-     "history": "reports/nasapds.nasapds/nasapds.nasapds_useCaseHistory.json"
-    },
-    {
-     "client": "nasasmd.pgda",
-     "label": "",
-     "history": "reports/nasasmd.pgda/nasasmd.pgda_useCaseHistory.json"
-    },
-    {
-     "client": "nasasmd.psi",
-     "label": "",
-     "history": "reports/nasasmd.psi/nasasmd.psi_useCaseHistory.json"
-    },
-    {
-     "client": "nasasmd.shadoz",
-     "label": "",
-     "history": "reports/nasasmd.shadoz/nasasmd.shadoz_useCaseHistory.json"
-    }
-   ]
-  },
-  {
-   "name": "NOAA",
-   "schedule": "monthly",
-   "series": [
-    {
-     "client": "noaa.gmd",
-     "label": "",
-     "history": "reports/noaa.gmd/noaa.gmd_useCaseHistory.json"
-    },
-    {
-     "client": "noaa.library",
-     "label": "",
-     "history": "reports/noaa.library/noaa.library_useCaseHistory.json"
-    },
-    {
-     "client": "noaa.ncei",
-     "label": "",
-     "history": "reports/noaa.ncei/noaa.ncei_useCaseHistory.json"
+     "client": "cdl.ucsb",
+     "label": "Comprehensive_Everglades_Restoration_Plan_CERP-SFWMD",
+     "history": "reports/cdl.ucsb/cdl.ucsb_Comprehensive_Everglades_Restoration_Plan_CERP-SFWMD_useCaseHistory.json"
     }
    ]
   }
