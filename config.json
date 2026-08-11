@@ -2,6 +2,7 @@
   "sets": [
     {
       "name": "ETH Repositories",
+      "active": false,
       "schedule": "monthly",
       "max": 1000,
       "repositories": [
@@ -12,7 +13,24 @@
       ]
     },
     {
+      "name": "DataONE Repositories at UCSB", 
+      "schedule": "weekly", 
+      "max": 1000,
+      "repositories": [
+        {"client":"cdl.ucsb", "query": "prefix:10.6085", "label":"PISCO MN"},
+        {"client":"cdl.ucsb", "query": "prefix:10.18739", "label":"(NSF) Arctic Data Center"},
+        {"client":"cdl.ucsb", "query": "prefix:10.5063", "label":"KNB Data Repository"},
+        {"client":"cdl.ucsb", "query": "prefix:10.26081", "label":"Kavli Institute for Theoretical Physics"},
+        {"client":"cdl.ucsb", "query": "prefix:10.21983", "label":"punctum books"},
+        {"client":"cdl.ucsb", "query": "prefix:10.60635", "label":"Smithsonian Tropical Research Institute"},
+        {"client":"cdl.ucsb", "query": "prefix:10.5062", "label":"Issues in Science and Technology Librarianship"},
+        {"client":"cdl.ucsb", "query": "prefix:10.25494", "label":"California Ocean Protection Council Data Repository"},
+        {"client":"cdl.ucsb", "query": "prefix:10.25497", "label":"Comprehensive Everglades Restoration Plan (CERP-SFWMD)"}
+      ] 
+    },
+    {
       "name": "Metadata Game Changers",
+      "active": false,
       "schedule": "weekly",
       "max": 1000,
       "repositories": [
@@ -20,8 +38,10 @@
         "sjyq.omytlw"
       ]
     },
+
     {
       "name": "NASA",
+      "active": false,
       "schedule": "monthly",
       "repositories": [],
       "consortium": "nasaco",
@@ -30,23 +50,21 @@
     },
     {
       "name": "NOAA",
+      "active": false,
       "schedule": "monthly",
       "repositories": ["noaa.gmd", "noaa.library", "noaa.ncei"],
       "consortium": "",
       "max": 1000,
       "random": true
-    }
-/*
-,
+    },
     {
       "name": "UCAR",
+      "active": false,
       "schedule": "monthly",
       "repositories": ["ucar.ucar", "ucar.eol"],
       "consortium": "",
       "max": 1000,
       "random": true
     }
-*/
-
   ]
 }
