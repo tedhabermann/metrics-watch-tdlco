@@ -448,6 +448,21 @@ def build_sets(args, cfg):
             seen = {key(t) for t in targets}
             targets += [t for r in consortium_repositories(consortium)
                         if key(t := {**d, 'client': r}) not in seen]
+        # a set-level "queries" list cross-multiplies with the set's repositories: every
+        # target that did NOT set its own entry-level query becomes one target per query.
+        # Entries are strings or {query, label}; an empty-string query keeps the plain
+        # whole-repository series alongside the filtered ones.
+        if over.get('queries'):
+            expanded = []
+            for t in targets:
+                if t['query'] != d['query']:      # entry-level query override: leave as-is
+                    expanded.append(t)
+                    continue
+                for q in over['queries']:
+                    qq = q if isinstance(q, str) else (q.get('query') or '')
+                    lbl = '' if isinstance(q, str) else (q.get('label') or '')
+                    expanded.append({**t, 'query': qq, 'label': lbl or t['label']})
+            targets = expanded
         out, seen = [], set()
         for t in targets:
             if t['client'] and key(t) not in seen:

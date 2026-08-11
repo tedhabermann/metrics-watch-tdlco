@@ -77,6 +77,27 @@ plain client id or an object with its own filters:
 - **Different queries against the same repository are monitored separately**:
   each query (or explicit `label`) gets its own report files, its own history,
   its own trend-page section, and its own viewer link — series never mix.
+- **One repository, many queries** — give the set a `"queries"` list and it
+  cross-multiplies with the set's repositories (and consortium members). Entries
+  are query strings or `{ "query": …, "label": … }` objects; an empty string
+  `""` keeps the plain whole-repository series alongside the filtered ones.
+  A repository entry that carries its **own** `query` is excluded from the
+  cross-product — it stays exactly the one series it asked for:
+
+  ```json
+  { "name": "iris-slices", "repositories": ["iris.iris"],
+    "queries": ["", "types.resourceTypeGeneral:Dataset",
+                { "query": "publicationYear:2025", "label": "y2025" }] }
+  ```
+
+- **One query, many repositories** — the set-level `"query"` (or a one-entry
+  `"queries"` list) applies to every repository in the set:
+
+  ```json
+  { "name": "datasets", "query": "types.resourceTypeGeneral:Dataset",
+    "repositories": ["tdl.tamu", "tdl.utl"] }
+  ```
+
 - **Schedules are per set**: an active re-curation project can run `daily` or
   `weekly` while the rest of your repositories stay `monthly`. (Under the hood
   the Action wakes daily and scores only the sets due that day; the manual
