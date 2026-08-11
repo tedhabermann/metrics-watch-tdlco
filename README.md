@@ -106,6 +106,10 @@ plain client id or an object with its own filters:
   well as) `repositories`, and every member repository joins the set.
 - Set-level `max` / `random` / `resourceType` / `query` are defaults for that
   set's repositories; entry-level values override them.
+- **Park a set without deleting it**: `"active": false` on a set (or on a
+  repository entry) skips it — runs note it as "Inactive (skipped)", it drops
+  out of `docs/sets.json`, and its stanza stays in the config for the day you
+  turn it back on. Absent means active; `"False"`/`"no"`/`"off"` also work.
 - Every run publishes **`docs/sets.json`**, and the trend page links each set
   into the suite's [Set Viewer](https://metadata-game-changers.github.io/recuration-watch/setViewer.html)
   — a radar grid of all members for one run, bright spots first.
