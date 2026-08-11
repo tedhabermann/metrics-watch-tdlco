@@ -422,6 +422,15 @@ def make_target(entry, defaults):
             'label': entry.get('label', '')}
 
 
+def is_active(entry):
+    """The "active" flag on a set or repository entry: absent means active; false,
+    "false", "no", "0" or "off" (any case) park it without deleting the stanza."""
+    v = entry.get('active', True)
+    if isinstance(v, str):
+        return v.strip().lower() not in ('false', 'no', '0', 'off')
+    return bool(v)
+
+
 def build_sets(args, cfg):
     """Resolve CLI + config into scoring sets: {name, schedule, targets}. A config with
     "sets" gets one per entry (each with its own schedule and defaults); a flat config
@@ -443,7 +452,8 @@ def build_sets(args, cfg):
 
     def targets_for(over, clients, consortium):
         d = defaults_from(over, base)
-        targets = [make_target(e, d) for e in clients]
+        targets = [make_target(e, d) for e in clients
+                   if isinstance(e, str) or is_active(e)]
         if consortium:
             seen = {key(t) for t in targets}
             targets += [t for r in consortium_repositories(consortium)
@@ -470,10 +480,13 @@ def build_sets(args, cfg):
         return out
 
     if cfg.get('sets'):
+        skipped = [cs.get('name') or f'set{i + 1}' for i, cs in enumerate(cfg['sets']) if not is_active(cs)]
+        if skipped:
+            print(f'Inactive (skipped): {", ".join(skipped)}', flush=True)
         return [{'name': cs.get('name') or f'set{i + 1}',
                  'schedule': (cs.get('schedule') or 'monthly').lower(),
                  'targets': targets_for(cs, cs.get('repositories', []), cs.get('consortium') or '')}
-                for i, cs in enumerate(cfg['sets'])]
+                for i, cs in enumerate(cfg['sets']) if is_active(cs)]
     clients = args.client or cfg.get('repositories', [])
     consortium = args.consortium or cfg.get('consortium') or ''
     return [{'name': 'default', 'schedule': (cfg.get('schedule') or 'monthly').lower(),
