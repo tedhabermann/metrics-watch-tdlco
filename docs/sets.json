@@ -1,9 +1,35 @@
 {
- "generated": "2026-08-11T21",
+ "generated": "2026-08-14T21",
  "sets": [
   {
+   "name": "ETH Repositories",
+   "schedule": "monthly",
+   "series": [
+    {
+     "client": "ethz.marvel",
+     "label": "",
+     "history": "reports/ethz.marvel/ethz.marvel_useCaseHistory.json"
+    },
+    {
+     "client": "ethz.wsl",
+     "label": "",
+     "history": "reports/ethz.wsl/ethz.wsl_useCaseHistory.json"
+    },
+    {
+     "client": "ethz.psi",
+     "label": "",
+     "history": "reports/ethz.psi/ethz.psi_useCaseHistory.json"
+    },
+    {
+     "client": "eawag.rdm",
+     "label": "",
+     "history": "reports/eawag.rdm/eawag.rdm_useCaseHistory.json"
+    }
+   ]
+  },
+  {
    "name": "DataONE Repositories at UCSB",
-   "schedule": "weekly",
+   "schedule": "monthly",
    "series": [
     {
      "client": "cdl.ucsb",
@@ -49,6 +75,22 @@
      "client": "cdl.ucsb",
      "label": "Comprehensive_Everglades_Restoration_Plan_CERP-SFWMD",
      "history": "reports/cdl.ucsb/cdl.ucsb_Comprehensive_Everglades_Restoration_Plan_CERP-SFWMD_useCaseHistory.json"
+    }
+   ]
+  },
+  {
+   "name": "Metadata Game Changers",
+   "schedule": "weekly",
+   "series": [
+    {
+     "client": "sjyq.oozvia",
+     "label": "",
+     "history": "reports/sjyq.oozvia/sjyq.oozvia_useCaseHistory.json"
+    },
+    {
+     "client": "sjyq.omytlw",
+     "label": "",
+     "history": "reports/sjyq.omytlw/sjyq.omytlw_useCaseHistory.json"
     }
    ]
   }
