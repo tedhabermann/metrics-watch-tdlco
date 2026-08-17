@@ -11,6 +11,11 @@
         "eawag.rdm"
       ]
     },
+    { "name": "Purdue University Research Repository", 
+      "schedule": "weekly",
+      "max": 5000,
+      "repositories": ["purdue.purduelib"] 
+    },
     {
       "name": "DataONE Repositories at UCSB", 
       "schedule": "monthly", 
